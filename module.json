@@ -1,7 +1,7 @@
 {
-  "name": "name",
-  "title": "title",
-  "description": "desc",
+  "name": "didyouknow",
+  "title": "Did You Know?",
+  "description": "Display interesting tips and information about Foundry and your installed modules during load times.",
   "version": "0.1",
   "author": "theripper93",
   "authors": [
@@ -18,9 +18,7 @@
           "path": "languages/en.json"
       }
   ],
-  "scripts": [
-      "./scripts/main.js",
-      "./scripts/config.js",
+  "esmodules": [
       "./scripts/module.js"
   ],
   "styles": [
@@ -34,6 +32,7 @@
   "manifest": "",
   "download": "",
   "socket":true,
+  "library" : true,
   "dependencies": [
     {
         "name": "lib-wrapper"

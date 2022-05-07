@@ -1,3 +1,20 @@
 {
-    "MODULE.hello": "hello"
+    "didyouknow": {
+        "loading": {
+            "title": "Did You Know?",
+            "module": "From Module: "
+        },
+        "playerFacts": [
+            "You can hover over a Token and press 'T' to target it?"
+        ],
+        "gmFacts": [
+            "Did you know that you are a GM?"
+        ],
+        "moduleFacts": {
+            "moduleId": {
+                "playerFacts": [],
+                "gmFacts": []
+            }
+        }
+    }
 }

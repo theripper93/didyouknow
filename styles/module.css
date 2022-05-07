@@ -1,0 +1,12 @@
+.did-you-know-fact{
+    padding-top: 20vh;
+    text-align: center;
+    color: var(--color-text-light-0);
+    pointer-events: all;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.262);
+}
+
+.did-you-know-fact h1{
+    padding-bottom: 0.4rem;
+}
