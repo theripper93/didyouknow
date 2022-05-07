@@ -4,7 +4,6 @@
     color: var(--color-text-light-0);
     pointer-events: all;
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.262);
 }
 
 .did-you-know-fact h1{

@@ -22,6 +22,7 @@ export class DidYouKnowHandler {
     }
 
     generateFact(){
+        debugger
         const everyoneFact = this.facts.everyone[Math.floor(Math.random() * this.facts.everyone.length)];
         const gmOnlyFact = this.facts.gmOnly[Math.floor(Math.random() * this.facts.gmOnly.length)];
         const fact = game?.user?.isGM ? (Math.random() > 0.5 ? gmOnlyFact : everyoneFact) : everyoneFact;

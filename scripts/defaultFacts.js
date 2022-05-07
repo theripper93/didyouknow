@@ -1,5 +1,4 @@
 export function registerDefault(){
-    debugger
     let defaultPlayer = game.i18n.translations.didyouknow.playerFacts;
     let defaultGM = game.i18n.translations.didyouknow.gmFacts;
     const moduleFacts = game.i18n.translations.didyouknow.moduleFacts;

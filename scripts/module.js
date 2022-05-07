@@ -14,3 +14,7 @@ Hooks.on("i18nInit", () => {
 Hooks.on("didYouKnowReady", (didYouKnow) => {
     registerDefault();
 })
+
+Hooks.on("canvasInit", () => {
+    globalThis.DidYouKnow?.generateFact();
+})
